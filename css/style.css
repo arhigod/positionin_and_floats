@@ -103,7 +103,7 @@ p {
     margin: 2px 0 0 7px;
 }
 
-article {
+.part {
     overflow-x: hidden;
     margin: 14px 0 15px 0;
 }
