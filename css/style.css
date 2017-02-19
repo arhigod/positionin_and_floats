@@ -48,26 +48,28 @@ body {
     border-top-right-radius: 10px;
     border: solid 2px #000000;
     height: 31px;
-    top: 40px;
     position: absolute;
 }
 
 .sticker1 {
     background-color: #f68e56;
     width: 107px;
-    left: 494px;
+    left: 492px;
+    top: 38px;
 }
 
 .sticker2 {
     background-color: #39b54a;
     width: 95px;
-    left: 472px;
+    left: 470px;
+    top: 41px;
 }
 
 .sticker3 {
     background-color: #00aeef;
     width: 95px;
-    left: 440px;
+    left: 438px;
+    top: 46px;
 }
 
 .left {
@@ -103,8 +105,8 @@ p {
     margin: 16px 0 15px 7px;
 }
 
-.part {
-    overflow-x: hidden;
+.overflow {
+    overflow: hidden;
 }
 
 .bimg {
@@ -136,4 +138,8 @@ footer {
     width: 20px;
     height: 20px;
     margin: 11px 0 0 5px;
+}
+
+figure {
+    margin:0 0 0 0;
 }
