@@ -10,7 +10,7 @@ body {
     font-family: 'MyriadProRegular', sans-serif;
 }
 
-.pages {
+section {
     width: 563px;
     height: 789px;
     margin: 200px auto 0 auto;
@@ -105,10 +105,6 @@ p {
     margin: 16px 0 15px 7px;
 }
 
-.overflow {
-    overflow: hidden;
-}
-
 .bimg {
     margin-top: 14px;
 }
@@ -120,7 +116,7 @@ footer {
     clear: both;
 }
 
-.social {
+aside {
     position: fixed;
     bottom: 20px;
     right: 0;
@@ -141,5 +137,10 @@ footer {
 }
 
 figure {
-    margin:0 0 0 0;
+    overflow: hidden;
+    margin: 0 0 0 0;
+}
+
+main {
+    overflow: hidden;
 }
